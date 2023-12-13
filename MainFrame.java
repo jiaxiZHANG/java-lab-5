@@ -110,7 +110,6 @@ public class MainFrame extends JFrame {
         graphicsMenu.add(showAxisMenuItem);
 
         showAxisMenuItem.setSelected(true);
-        // Повторить действия для элемента "Показывать маркеры точек"
         Action showMarkersAction = new AbstractAction("Показывать маркеры точек显示点标记") {
 
             public void actionPerformed(ActionEvent event) {
